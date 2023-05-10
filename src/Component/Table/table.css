@@ -1,0 +1,38 @@
+.table a{
+    text-decoration: none;
+}
+a td{
+    color: #000;
+}
+a td:hover{
+    color:#2acb52
+}
+table{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   overflow-x: scroll;
+}
+tr{
+    text-align: center;
+    text-decoration: none;
+}
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    border-right: 2px solid #fff;
+}
+th {
+    background-color: #cbf8d7;
+    border-bottom: 2px solid #f2f2f2;
+    color: rgb(41, 43, 41);
+    text-transform: uppercase;
+}
+tr.heading th{
+    color: #fff;
+    background-color: #2acb52;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

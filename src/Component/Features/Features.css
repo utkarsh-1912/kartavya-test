@@ -1,0 +1,47 @@
+.features{
+    height: 50vh;
+    /* background-image: url("../../assets/image-k-2.jpg"),linear-gradient(#2bb2c5,#2bb2c5);  */
+    background-color: #023964;
+    background-image: url(https://akshayapatra.org/includefiles/images/1920x700x2.jpg);
+    /* background-blend-mode: overlay;
+    background-repeat: no-repeat;
+     background-size: cover; */
+    /* opacity: 0.3; */
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px 60px;
+    
+}
+.visible{
+  width:30%;
+}
+.features-heading{
+    /* color:#24a845; */
+    color: #86c540;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 36px;
+    
+}
+.features-content{
+    color: #fff;
+    font-size: 20px;
+   font-weight: 400;
+}
+.visible img{
+    margin: 10px;
+}
+.visible img:hover{
+    transform: perspective(200px) translateZ(30px);
+    transition: 0.3s ease-in-out;
+}
+@media screen and (max-width: 900px) {
+    .features{
+        display: block;
+        height: fit-content;
+    } 
+    .visible {
+        width:100%;
+    }
+ }

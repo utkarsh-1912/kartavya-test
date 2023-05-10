@@ -1,0 +1,66 @@
+.fHead{
+    padding-top: 50px;
+}
+.faq .container {
+    max-width: 70%;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+
+.faq .box {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.faq button {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    text-align: left;
+    align-items: center;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    border: none;
+    background-color: #e6ffe3;
+}
+
+.faq h2 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.faq p {
+    padding: 20px;
+    background-color: rgb(240, 248, 235);
+}
+
+.faq .accordion {
+    transition: 0.5s;
+}
+
+.faq .accordion:hover , .faq .accordion:focus{
+    background-color: #24a845;
+    color: #fff;
+}
+.fHead {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.faq li{
+    color: #3e3e40;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+@media screen and (max-width:600px) {
+    .faq .container {
+            max-width: 90%;
+            border-radius: 5px;
+    }
+}

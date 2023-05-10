@@ -1,0 +1,66 @@
+.about{
+    margin-top: 50px;
+    padding: 40px 50px;
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    gap: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.about h1{
+    background-color: #2acb52;
+    color:white;
+    padding: 3px 5px;
+    border-top: 2px solid #2acb52;
+    background-image: url('https://www.pcedf.org/image/slider/02.jpg');
+}
+.about .box.content p{
+    line-height: 1.2;
+    letter-spacing: 1.2;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.about .box .video{
+
+}
+.about .box.content img{
+    width:100%;
+}
+.about .box.gallary p{
+    /* color: rgb(19, 93, 242); */
+    color:#2acb52;
+    font-size: 20px;
+    border-bottom: 2px solid #2acb52;
+    margin-bottom: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    letter-spacing: 1.2;
+    text-transform: uppercase;
+}
+@media screen and (max-width:1000px) {
+    .about {
+        grid-template-columns: 1fr 0.5fr;
+        
+    }
+}
+@media screen and (max-width:800px){
+    .about h1 {
+        border: none;
+            color: #2acb52;
+            border-bottom: 2px solid #2acb52;
+            background:inherit;
+        }
+    .about .box.content p{
+        text-align: left;
+    }
+    .about {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+}
+.about .box iframe{
+    width: 100%;
+    height:260px;
+}
