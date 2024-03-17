@@ -120,7 +120,7 @@ export default function Footer() {
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
               <p>
                 <MDBIcon color="secondary" icon="home" className="me-2" />
-                Kartavya C-3, Mondal Basti, Dhaiya PO -ISM,Dhanbad-
+                Kartavya C-1, Mondal Basti, Dhaiya PO -ISM,Dhanbad-
                 826004(Jharkhand)
               </p>
               <p>
@@ -129,12 +129,13 @@ export default function Footer() {
               </p>
               <p>
                 <MDBIcon color="secondary" icon="phone" className="me-3" /> + 91
-                9123258021
+                +918709899923
               </p>
+              /*    
               <p>
                 <MDBIcon color="secondary" icon="print" className="me-3" /> + 91
                 9693169016
-              </p>
+              </p>*/
             </MDBCol>
           </MDBRow>
         </MDBContainer>
