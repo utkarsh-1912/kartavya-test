@@ -128,14 +128,10 @@ export default function Footer() {
                 sponsor.kartavya@gmail.com
               </p>
               <p>
-                <MDBIcon color="secondary" icon="phone" className="me-3" /> + 91
+                <MDBIcon color="secondary" icon="phone" className="me-3" /> 
                 +918709899923
               </p>
-              /*    
-              <p>
-                <MDBIcon color="secondary" icon="print" className="me-3" /> + 91
-                9693169016
-              </p>*/
+            
             </MDBCol>
           </MDBRow>
         </MDBContainer>
