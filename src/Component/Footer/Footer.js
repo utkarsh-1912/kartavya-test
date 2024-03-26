@@ -62,13 +62,13 @@ export default function Footer() {
                 {/* <MDBIcon color='secondary' icon='gem' className='me-3' /> */}
                 <img className="logo-footer" src={logo} alt="logo" />
               </h6>
-              <p>
+              {/* <p>
                 -Every child deserves a happy childhood.
                 <br /> -Join us in our journey to make a positive impact on
                 children's lives.
                 <br /> -Dedicated to the upliftment of the underprivileged
                 through education since 1999.
-              </p>
+              </p> */}
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
@@ -124,8 +124,8 @@ export default function Footer() {
                 826004(Jharkhand)
               </p>
               <p>
-                <MDBIcon color="secondary" icon="envelope" className="me-3" />
-                sponsor.kartavya@gmail.com
+                
+                <a href="mailto:sponsor.kartavya@gmail.com"><MDBIcon color="secondary" icon="envelope" className="me-3" />sponsor.kartavya@gmail.com</a>
               </p>
               <p>
                 <MDBIcon color="secondary" icon="phone" className="me-3" /> 
@@ -143,7 +143,7 @@ export default function Footer() {
       >
         <a
           className="text-reset fw-bold"
-          href="https://www.instagram.com/kartavya_dhanbad/?hl=en"
+          href="http://kartavya.org/"
         >
           {copyrightText} | Kartavya.org
         </a>

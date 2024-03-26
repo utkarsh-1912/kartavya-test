@@ -14,7 +14,7 @@ const Home = () => {
       <CardPile />
       <Impact_story />
       <Features />
-     // <Faq />
+      {/* <Faq /> */}
     </div>
   );
 };

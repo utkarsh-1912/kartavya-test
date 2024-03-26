@@ -5,8 +5,8 @@ import "./Slider.css";
 import Image1 from "../../assets/image-k-1.jpg";
 import Image2 from "../../assets/image-k-2.jpg";
 import Image3 from "../../assets/image-k-3.jpg";
-import Image4 from "src\assets\DSC_0105.jpg"
-import Image5 from "src\assets\IMG_8073.jpg"
+import Image4 from "../../assets/DSC_0105.jpg"
+import Image5 from "../../assets/IMG_8073.jpg"
 
 function Slider1() {
   return (
