@@ -5,13 +5,15 @@ import "./Slider.css";
 import Image1 from "../../assets/image-k-1.jpg";
 import Image2 from "../../assets/image-k-2.jpg";
 import Image3 from "../../assets/image-k-3.jpg";
+import Image4 from "src\assets\DSC_0105.jpg"
+import Image5 from "src\assets\IMG_8073.jpg"
 
 function Slider1() {
   return (
     <div className="slide">
       <Carousel controls={false} className="bg-color">
         <Carousel.Item>
-          <img className="w-40" src={Image1} alt="First slide" />
+          <img className="w-40" src={Image5} alt="First slide" />
           <Carousel.Caption>
             {/* <button className='yellow-button'>Donate Now</button> */}
             <h3>Educate a Child. Empower a Society</h3>
@@ -30,7 +32,7 @@ function Slider1() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="w-40" src={Image2} alt="Third slide" />
+          <img className="w-40" src={Image4} alt="Third slide" />
 
           <Carousel.Caption>
             <h3>Educate and Empower Young Girls and Women</h3>
