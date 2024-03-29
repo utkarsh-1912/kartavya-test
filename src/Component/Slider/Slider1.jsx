@@ -7,13 +7,14 @@ import Image2 from "../../assets/image-k-2.jpg";
 import Image3 from "../../assets/image-k-3.jpg";
 import Image4 from "../../assets/DSC_0105.jpg"
 import Image5 from "../../assets/IMG_8073.jpg"
+import Image6 from "../../assets/IMG_20240323_125518.jpg"
 
 function Slider1() {
   return (
     <div className="slide">
       <Carousel controls={false} className="bg-color">
         <Carousel.Item>
-          <img className="w-40" src={Image5} alt="First slide" />
+          <img className="w-40" src={Image6} alt="First slide" />
           <Carousel.Caption>
             {/* <button className='yellow-button'>Donate Now</button> */}
             <h3>Educate a Child. Empower a Society</h3>
